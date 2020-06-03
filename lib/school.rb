@@ -23,7 +23,7 @@ class School
   end  
   
   def sort
-    roster[grade].sort |a, b|
+    roster[grade].sort |roster, grade|
   end  
   
 end  
