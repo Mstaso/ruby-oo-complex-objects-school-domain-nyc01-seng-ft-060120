@@ -22,7 +22,7 @@ class School
     roster[grade]
   end  
   
-  def sort
+  def sort(roster)
     grade.sort_by { |roster, grade| grade }
   end  
   
