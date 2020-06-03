@@ -23,7 +23,7 @@ class School
   end  
   
   def sort(grade)
-    grade.sort_by { |grade| }
+    grade.sort_by { |grade| grade }
   end  
   
 end  
