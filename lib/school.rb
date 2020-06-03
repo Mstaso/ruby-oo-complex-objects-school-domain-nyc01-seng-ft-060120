@@ -25,6 +25,6 @@ class School
   def sort
     roster[grade].sort |grade|
   end  
-end
+
 end  
 
